@@ -5,29 +5,29 @@ body {
   background-position: center;
   margin: 0;
   padding: 20px;
-  color: #fff; /* Set text color to white */
+  color: #fff; 
 }
 
 h1 {
   text-align: center;
-  color: #fff; /* Set heading color to white */
+  color: #fff; 
 }
 
 .destination {
   margin-bottom: 40px;
-  background-color: rgba(127, 255, 212, 0.8); /* Set the background color with transparency */
+  background-color: aquamarine; 
   padding: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  border-radius: 10px; /* Add border radius for rounded corners */
-  border: 2px solid #fff; /* Set the border color and width */
+  border-radius: 10px; 
+  border: 2px solid #fff; 
 }
 
 .destination h2 {
   margin-bottom: 10px;
-  color: #fff; /* Set heading color to white */
+  color: #fff; 
   font-size: 24px;
 }
 
@@ -35,13 +35,13 @@ h1 {
   max-width: 100%;
   height: auto;
   margin-bottom: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 5px; /* Add border radius for rounded corners */
+  border: 1px solid black;
+  border-radius: 5px; 
 }
 
 .destination p {
   margin: 0;
   padding: 10px;
   text-align: justify;
-  color: #fff; /* Set paragraph text color to white */
+  color: #fff; 
 }
