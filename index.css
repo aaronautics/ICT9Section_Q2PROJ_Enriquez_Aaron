@@ -1,49 +1,55 @@
 body {
-  font-family: Arial, sans-serif;
-  background-image: url("background.jpg");
-  background-size: cover;
-  background-position: center;
-  margin: 0;
-  padding: 20px;
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-position: center;
 }
 
-h1 {
-  text-align: center;
-  color: #fff;
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	color: #fff;
+}
+
+header {
+	text-align: center;
+	margin-bottom: 20px;
 }
 
 .destination {
-  margin-bottom: 40px;
-  border: 1px solid rgba(127, 255, 212, 0.8);
-  background-color: rgba(127, 255, 212, 0.4);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
+	margin-bottom: 40px;
 }
 
-.destination h2 {
-  margin-bottom: 10px;
-  color: #fff;
-  font-size: 24px;
+.row {
+	display: flex;
+	align-items: center;
 }
 
-.destination img {
-  max-width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+.column {
+	flex: 1;
 }
 
-.destination p {
-  margin: 0;
-  padding: 10px;
-  text-align: justify;
-  color: #fff;
+.description {
+	flex: 1;
+	padding: 20px;
+	background-color: rgba(0, 128, 128, 0.8);
 }
 
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+p {
+	font-size: 16px;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
 
