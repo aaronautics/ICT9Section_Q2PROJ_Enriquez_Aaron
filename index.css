@@ -16,19 +16,28 @@ h1 {
   border: 1px solid aquamarine;
   padding: 5px;
   height: 350px;
-  width: 200px;
-  background-color: aquamarine;
-}
-
-.destination h2 {
+  width: 500px;
+  background-color: rgba(127, 255, 212, 0.8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
+.destination h2 {
+  margin-bottom: 10px;
+}
+
 .destination img {
-  display: block;
-  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .destination p {
+  margin: 0;
+  padding: 10px;
   text-align: justify;
 }
+
